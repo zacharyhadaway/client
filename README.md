@@ -29,3 +29,8 @@ Add to tailwind.config.js
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ]
+
+~/client$ npx tailwindcss init -p
+
+tailwind.config.js already exists.
+Created PostCSS config file: postcss.config.js
