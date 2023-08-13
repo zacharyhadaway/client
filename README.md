@@ -15,3 +15,17 @@ By default, Replit runs the `dev` script, but you can configure it by changing t
 ### Typescript
 
 Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+
+
+https://tailwindcss.com/docs/guides/create-react-app
+npm install -D tailwindcss postcss autoprefixer
+npm audit fix
+npx tailwindcss init
+
+Add to tailwind.config.js
+
+/** @type {import('tailwindcss').Config} */
+
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ]
